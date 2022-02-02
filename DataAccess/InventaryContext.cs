@@ -18,7 +18,7 @@ namespace DataAccess
         {
             if (!options.IsConfigured)
             {
-                options.UseSqlServer("Server=LAPTOP-EAPG3FIK\\SQLEXPRESS01; Database=InventoryDb; Integrated Security=True");
+                options.UseSqlServer("Server=Aquí va tu BD; Database=InventoryDb; Integrated Security=True");
             }
         }
 
